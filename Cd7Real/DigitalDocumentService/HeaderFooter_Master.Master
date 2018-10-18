@@ -3,7 +3,14 @@
 <!DOCTYPE html>
 
 <html>
-<style>
+
+<head runat="server">
+    <title></title>
+    <link href="StyleSheetSignIn.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
     ul {
         list-style-type: none;
         margin: 0;
@@ -38,12 +45,6 @@
         text-align: center;
     }
 </style>
-<head runat="server">
-    <title></title>
-    <link href="StyleSheetSignIn.css" rel="stylesheet" />
-
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -62,7 +63,7 @@
                 </div>
             </nav>
             <div class="footer">
-                Digital Document blah blah
+                Digital Document Services Delivery System ©, Temple University 2018
                 </div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
