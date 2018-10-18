@@ -7,7 +7,7 @@
         <div class="row">
             <div class="col-lg-5"></div>
             <div class="col-lg-2" style="text-align:center;">                
-                <asp:Button ID="btnPickup" runat="server" Text="Worker Pickup" />
+                <asp:Button ID="btnPickup" runat="server" Text="Worker Pickup" OnClick="btnPickup_Click" />
             </div>    <br/><br/>
             <div class="col-lg-5"></div><br/><br/>
         </div>            

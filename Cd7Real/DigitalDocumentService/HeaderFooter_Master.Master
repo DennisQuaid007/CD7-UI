@@ -59,9 +59,7 @@
                         <a class="navbar-brand">Digital Document Services </a>
                     </div>
                     <ul>
-                     
-                        <li><a href="Homepage.aspx">Home</a></li>
-                        <li><a href="About.aspx">About</a> </li>
+                        <li><a href="studentFrmMain.aspx">Home</a></li>
                     </ul>
                 </div>
             </nav>
