@@ -28,7 +28,7 @@
             Tuid:
                 <asp:TextBox ID="txtTuid" runat="server" BorderStyle="Solid" BorderWidth="1px"></asp:TextBox></br>
         Password:
-                <asp:TextBox ID="txtPassword" runat="server" BorderStyle="Solid" BorderWidth="1px"></asp:TextBox></br></br>
+                <asp:TextBox ID="txtPassword" runat="server" BorderStyle="Solid" BorderWidth="1px" TextMode="Password"></asp:TextBox></br></br>
                 </div>
             <asp:Button CssClass="signinbutton" ID="btnSignIn" runat="server" Text="Sign In" OnClick="Button2_Click" /><br></br>
             <div class="login-help">

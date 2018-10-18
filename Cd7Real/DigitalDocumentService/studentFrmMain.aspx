@@ -7,14 +7,14 @@
         <div class="row">
             <div class="col-lg-5"></div>
             <div class="col-lg-2" style="text-align:center;">                
-                <asp:Button ID="btnPickup" runat="server" Text="Worker Pickup" OnClick="btnPickup_Click" /><br/><br/>
+                <asp:Button ID="btnPickup" runat="server" Text="Worker Pickup" /><br/><br/>
             </div>    
             <div class="col-lg-5"></div>
         </div>            
         <div class="row">
             <div class="col-lg-5"></div>
             <div class="col-lg-2" style="text-align:center;">                
-                <asp:Button ID="btnDelivery" runat="server" Text="Sign off on a Delivery" OnClick="btnDelivery_Click" />
+                <asp:Button ID="btnDelivery" runat="server" Text="Sign off on a Delivery"  />
             </div>    
             <div class="col-lg-5"></div>
         </div>
