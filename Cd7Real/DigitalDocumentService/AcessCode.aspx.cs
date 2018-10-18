@@ -16,13 +16,12 @@ namespace DigitalDocumentService
 
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
-            if (txtAcessCode.Text != " ")
+            if (txtAcessCode.Text != "DigitalDocSW")
             {
                 lblWarning.Visible = true;
-            }
-            else {
+            }else {
                 Response.Redirect("Register.aspx");
-                    }
+            }
                 
             
         }
