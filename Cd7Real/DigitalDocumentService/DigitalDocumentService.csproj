@@ -111,6 +111,7 @@
     <Content Include="bin\roslyn\vbc.exe" />
     <Content Include="bin\roslyn\VBCSCompiler.exe" />
     <Content Include="chk.png" />
+    <Content Include="ConfimPickupSignoff.aspx" />
     <Content Include="DeliveryConfirmationFinal.aspx" />
     <Content Include="HeaderFooter_Master.Master" />
     <Content Include="obj\Debug\build.force" />
@@ -164,6 +165,13 @@
     </Compile>
     <Compile Include="AcessCode.aspx.designer.cs">
       <DependentUpon>AcessCode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConfimPickupSignoff.aspx.cs">
+      <DependentUpon>ConfimPickupSignoff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfimPickupSignoff.aspx.designer.cs">
+      <DependentUpon>ConfimPickupSignoff.aspx</DependentUpon>
     </Compile>
     <Compile Include="DeliveryConfirmationFinal.aspx.cs">
       <DependentUpon>DeliveryConfirmationFinal.aspx</DependentUpon>

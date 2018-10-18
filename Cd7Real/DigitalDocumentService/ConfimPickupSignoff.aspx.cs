@@ -41,7 +41,7 @@ namespace DigitalDocumentService
             }
             else
             {
-                Response.Redirect("DeliveryConfirmationFinal.aspx);
+                Response.Redirect("DeliveryConfirmationFinal.aspx");
             }
         }
     }
