@@ -5445,9 +5445,9 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
 .Login {
     position: absolute;
     height: 200px;
-    width: 400px;
+    width: 300px;
     margin: -100px 0 0 -200px;
-    top: 20%;
+    top: 25%;
     left: 50%;
 }
 
@@ -5469,10 +5469,47 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
     background-color: #d12536;
     color: white;
     border: 1px solid #d12536;
+    float: right;
+}
+
+.textcolor{
+    color:black;
 }
 
 body {
     background-color: #2d2e30;
-    color:white;
 }
-<>
+.form1 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 45px;
+    font-family: Courier New, Courier, monospace;
+}
+
+.RegisterDesign {
+    color: navy;
+    font-size: 40px;
+}
+
+.login-submit {
+    border: 0px;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    background-color: blue;
+}
+
+.login-help {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: grey;
+}
+
+.color {
+    color: red;
+}

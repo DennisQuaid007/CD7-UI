@@ -9,23 +9,35 @@
 
 </head>
 <body>
-    <form id="form1" runat="server"><nav class="navbar navbar-default">
-         <div class="container-fluid">
-                    <div class="navbar-header">
-                        <a class="navbar-brand"> Digital Document Services </a>
-                    </div>          
-
+    <form id="form1" runat="server">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand">Digital Document Services </a>
                 </div>
-            </nav>
-
-        <div class="Login">
-            <div class="Loginbox">
-        Tuid: <asp:TextBox ID="txtTuid" runat="server"></asp:TextBox></br>
-        Password: <asp:TextBox ID="txtPassword" runat="server"></asp:TextBox></br></br>
-                <asp:Button CssClass="signupbutton" ID="btnSignUp" runat="server" Text="Sign up" BorderColor="Red" BorderStyle="Solid" />      <asp:Button CssClass="signinbutton" ID="btnSignIn" runat="server" Text="Sign In" />
 
             </div>
+        </nav>
+        <div class="form1">
+            <div class="RegisterDesign">
+                Log In
+        <br />
+                </br>
             </div>
+            <div class="textcolor">
+            Tuid:
+                <asp:TextBox ID="txtTuid" runat="server" BorderStyle="Solid" BorderWidth="1px"></asp:TextBox></br>
+        Password:
+                <asp:TextBox ID="txtPassword" runat="server" BorderStyle="Solid" BorderWidth="1px"></asp:TextBox></br></br>
+                </div>
+            <asp:Button CssClass="signinbutton" ID="Button2" runat="server" Text="Sign In" OnClick="Button2_Click" /><br></br>
+            <div class="login-help">
+                Dont have an account? <a href="AcessCode.aspx">Register</a>
+                <br />
+                <asp:Label ID="lblTryAgain" runat="server" CssClass="color" Text="Label" Visible="false" ></asp:Label>
+            </div>
+        </div>
+
     </form>
 </body>
 </html>
