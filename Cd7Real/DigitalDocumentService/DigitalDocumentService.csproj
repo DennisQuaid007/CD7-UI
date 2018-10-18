@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Accept.aspx" />
     <Content Include="bin\DigitalDocumentService.dll" />
     <Content Include="bin\DigitalDocumentService.pdb" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
@@ -109,6 +110,7 @@
     <Content Include="bin\roslyn\System.Xml.XPath.XDocument.dll" />
     <Content Include="bin\roslyn\vbc.exe" />
     <Content Include="bin\roslyn\VBCSCompiler.exe" />
+    <Content Include="chk.png" />
     <Content Include="HeaderFooter_Master.Master" />
     <Content Include="obj\Debug\build.force" />
     <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
@@ -140,6 +142,7 @@
     <Content Include="obj\Debug\DigitalDocumentService.dll" />
     <Content Include="obj\Debug\DigitalDocumentService.pdb" />
     <Content Include="Register.aspx" />
+    <Content Include="ScanQRCode.aspx" />
     <Content Include="SignIn.aspx" />
     <Content Include="StevesStyles.css" />
     <Content Include="studentFrmMain.aspx" />
@@ -147,6 +150,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Accept.aspx.cs">
+      <DependentUpon>Accept.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accept.aspx.designer.cs">
+      <DependentUpon>Accept.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AcessCode.aspx.cs">
       <DependentUpon>AcessCode.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -171,6 +181,13 @@
     </Compile>
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ScanQRCode.aspx.cs">
+      <DependentUpon>ScanQRCode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ScanQRCode.aspx.designer.cs">
+      <DependentUpon>ScanQRCode.aspx</DependentUpon>
     </Compile>
     <Compile Include="SignIn.aspx.cs">
       <DependentUpon>SignIn.aspx</DependentUpon>
