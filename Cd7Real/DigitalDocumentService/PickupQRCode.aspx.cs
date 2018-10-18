@@ -7,16 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace DigitalDocumentService
 {
-    public partial class studentFrmMain : System.Web.UI.Page
+    public partial class PickupQRCode : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
-        }
-
-        protected void btnDelivery_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("ScanQRCode.aspx");
         }
     }
 }

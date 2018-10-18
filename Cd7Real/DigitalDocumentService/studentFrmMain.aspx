@@ -14,7 +14,7 @@
         <div class="row">
             <div class="col-lg-5"></div>
             <div class="col-lg-2" style="text-align:center;">                
-                <asp:Button ID="btnDelivery" runat="server" Text="Sign off on a Delivery"  />
+                <asp:Button ID="btnDelivery" runat="server" Text="Sign off on a Delivery" OnClick="btnDelivery_Click"  />
             </div>    
             <div class="col-lg-5"></div>
         </div>

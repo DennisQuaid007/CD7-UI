@@ -16,7 +16,7 @@ namespace DigitalDocumentService
 
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Accept.aspx");
+            Response.Redirect("PickUpFinal.aspx");
         }
     }
 }

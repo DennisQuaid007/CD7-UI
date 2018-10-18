@@ -17,7 +17,7 @@ namespace DigitalDocumentService
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            if(txtTuid.Text == "" || txtPassword.Text == "")
+            if (txtTuid.Text == "" || txtPassword.Text == "")
             {
                 lblTryAgain.Text = "Please make sure TuId and Password are entered";
                 lblTryAgain.Visible = true;
@@ -39,7 +39,10 @@ namespace DigitalDocumentService
                     txtPassword.BorderColor = Color.Black;
 
                 }
-            } 
+            }
+            else{
+                Response.Redirect("studentFrmMain.aspx");
+            }
         }
     }
 }
