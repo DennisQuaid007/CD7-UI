@@ -1,12 +1,12 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AcessCode.aspx.cs" Inherits="DigitalDocumentService.AcessCode" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="DigitalDocumentService.Register" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <link href="StyleSheetSignIn.css" rel="stylesheet" />
-    <style>
+     <link href="StyleSheetSignIn.css" rel="stylesheet" />
+        <style>
         .signup {
             background-color: navy;
             color: white;
@@ -32,7 +32,7 @@
         .warning{
             color:red;
         }
-    </style>
+            </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -44,20 +44,20 @@
 
             </div>
         </nav>
-
-
          <div class="form1">
              <div class="RegisterDesign">
-                Acess Code
+                Register
         <br />
             </div>
-             <asp:Label CssClass="warning" ID="lblWarning" runat="server" Text="Incorrect Acess Code" Visible="false" ></asp:Label>
-             </br>
-             Enter Acess Code: <asp:TextBox ID="txtAcessCode" runat="server" BorderWidth="1px" BorderStyle="Solid"></asp:TextBox>
-             </br>
-             </br>
-             <asp:Button CssClass="signinbutton" ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
+             <asp:Label CssClass="warning" ID="lblWarning" runat="server" Text="Please insure all options are filled" Visible="false"></asp:Label></br>
+            Name:  <asp:TextBox ID="txtName" runat="server" ></asp:TextBox> </br>
+            TuID: <asp:TextBox ID="txtTuID" runat="server" ></asp:TextBox> </br>
+            Email: <asp:TextBox ID="txtEmail" runat="server" placeholer="Email" TextMode="Email" ></asp:TextBox> </br>
+            Password: <asp:TextBox ID="txtPassword" runat="server" TextMode="Password" ></asp:TextBox></br>
+            Confirm Password: <asp:TextBox ID="txtConf" runat="server" TextMode="Password"></asp:TextBox> </br></br>
+             <asp:Button ID="btnSubmit" runat="server" Text="Register" CssClass="signinbutton" OnClick="btnSubmit_Click" />
         </div>
+
 
 
 

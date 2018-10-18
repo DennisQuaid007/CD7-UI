@@ -49,7 +49,6 @@ C:\Users\Jdigi\Desktop\Capstone 1\Cd7\CD7-UI\Cd7Real\DigitalDocumentService\bin\
 C:\Users\Jdigi\Desktop\Capstone 1\Cd7\CD7-UI\Cd7Real\DigitalDocumentService\bin\DigitalDocumentService.dll.config
 C:\Users\Jdigi\Desktop\Capstone 1\Cd7\CD7-UI\Cd7Real\DigitalDocumentService\bin\DigitalDocumentService.dll
 C:\Users\Jdigi\Desktop\Capstone 1\Cd7\CD7-UI\Cd7Real\DigitalDocumentService\bin\DigitalDocumentService.pdb
-C:\Users\Jdigi\Desktop\Capstone 1\Cd7\CD7-UI\Cd7Real\DigitalDocumentService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Jdigi\Desktop\Capstone 1\Cd7\CD7-UI\Cd7Real\DigitalDocumentService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Jdigi\Desktop\Capstone 1\Cd7\CD7-UI\Cd7Real\DigitalDocumentService\obj\Debug\DigitalDocumentService.csprojResolveAssemblyReference.cache
 C:\Users\Jdigi\Desktop\Capstone 1\Cd7\CD7-UI\Cd7Real\DigitalDocumentService\obj\Debug\DigitalDocumentService.csproj.CoreCompileInputs.cache

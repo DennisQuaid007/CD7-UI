@@ -13,5 +13,18 @@ namespace DigitalDocumentService
         {
 
         }
+
+        protected void btnSubmit_Click(object sender, EventArgs e)
+        {
+            if (txtAcessCode.Text != " ")
+            {
+                lblWarning.Visible = true;
+            }
+            else {
+                Response.Redirect("Register.aspx");
+                    }
+                
+            
+        }
     }
 }

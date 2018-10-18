@@ -30,7 +30,7 @@
         Password:
                 <asp:TextBox ID="txtPassword" runat="server" BorderStyle="Solid" BorderWidth="1px"></asp:TextBox></br></br>
                 </div>
-            <asp:Button CssClass="signinbutton" ID="Button2" runat="server" Text="Sign In" OnClick="Button2_Click" /><br></br>
+            <asp:Button CssClass="signinbutton" ID="btnSignIn" runat="server" Text="Sign In" OnClick="Button2_Click" /><br></br>
             <div class="login-help">
                 Dont have an account? <a href="AcessCode.aspx">Register</a>
                 <br />
