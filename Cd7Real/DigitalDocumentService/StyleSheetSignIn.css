@@ -5450,3 +5450,29 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
     top: 20%;
     left: 50%;
 }
+
+.Loginbox{
+    border: 1px solid;
+}
+
+.signupbutton {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border: .5px solid red;
+    color:white;
+}
+
+.signinbutton {
+    background-color: #d12536;
+    color: white;
+    border: 1px solid #d12536;
+}
+
+body {
+    background-color: #2d2e30;
+    color:white;
+}
+<>
