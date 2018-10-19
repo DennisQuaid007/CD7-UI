@@ -5477,11 +5477,11 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
 }
 
 body {
-    background-color: #2d2e30;
+    background-color: white;
 }
 .form1 {
     position: fixed;
-    top: 50%;
+    top: 40%;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);

@@ -23,5 +23,10 @@ namespace DigitalDocumentService
         {
             Response.Redirect("PickupQRCode.aspx");
         }
+
+        protected void btnOpenDels_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Deliveries.aspx");
+        }
     }
 }

@@ -112,6 +112,7 @@
     <Content Include="bin\roslyn\VBCSCompiler.exe" />
     <Content Include="chk.png" />
     <Content Include="ConfimPickupSignoff.aspx" />
+    <Content Include="Deliveries.aspx" />
     <Content Include="DeliveryConfirmationFinal.aspx" />
     <Content Include="HeaderFooter_Master.Master" />
     <Content Include="obj\Debug\build.force" />
@@ -151,6 +152,7 @@
     <Content Include="StevesStyles.css" />
     <Content Include="studentFrmMain.aspx" />
     <Content Include="StyleSheetSignIn.css" />
+    <Content Include="Temple_university_logo2.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -174,6 +176,13 @@
     </Compile>
     <Compile Include="ConfimPickupSignoff.aspx.designer.cs">
       <DependentUpon>ConfimPickupSignoff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Deliveries.aspx.cs">
+      <DependentUpon>Deliveries.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Deliveries.aspx.designer.cs">
+      <DependentUpon>Deliveries.aspx</DependentUpon>
     </Compile>
     <Compile Include="DeliveryConfirmationFinal.aspx.cs">
       <DependentUpon>DeliveryConfirmationFinal.aspx</DependentUpon>
