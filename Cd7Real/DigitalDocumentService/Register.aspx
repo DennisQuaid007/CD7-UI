@@ -19,7 +19,7 @@
             left: 50%;
             text-align: center;
             transform: translate(-50%, -50%);
-            background-color: white;
+            background-color: lightgrey;
             padding: 45px;
             font-family: Courier New, Courier, monospace;
         }

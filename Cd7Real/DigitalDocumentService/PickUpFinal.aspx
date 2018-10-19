@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 <style>
     #text{
-        color:white;
+        color:black;
     }
 </style>
 </asp:Content>
