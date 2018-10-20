@@ -23,6 +23,7 @@
                     <td>&nbsp;Delivery Person Name&nbsp;</td>
                     <td>&nbsp;Delivery Time&nbsp;</td>
                     <td>&nbsp;Delivery Date&nbsp;</td>
+                    <td>&nbsp;Map&nbsp;</td>
                 </tr>
                 <tr>
                     <td>&nbsp;abc123&nbsp;</td>
@@ -30,6 +31,7 @@
                     <td>&nbsp;John Smith&nbsp;</td>
                     <td>&nbsp;12:00&nbsp;</td>
                     <td>&nbsp;10/22/18&nbsp;</td>
+                    <td>&nbsp;<asp:Button ID="btnOpenMap" runat="server" Text="Open Map" OnClick="btnOpenMap_Click"></asp:Button>&nbsp;</td>
                 </tr>
                 <tr>
                     <td>&nbsp;abc123&nbsp;</td>
@@ -37,6 +39,7 @@
                     <td>&nbsp;John Smith&nbsp;</td>
                     <td>&nbsp;12:00&nbsp;</td>
                     <td>&nbsp;10/22/18&nbsp;</td>
+                    <td> </td>
                 </tr>
                 <tr>
                     <td>&nbsp;abc123&nbsp;</td>
@@ -44,7 +47,9 @@
                     <td>&nbsp;John Smith&nbsp;</td>
                     <td>&nbsp;12:00&nbsp;</td>
                     <td>&nbsp;10/22/18&nbsp;</td>
+                    <td> </td>
                 </tr>
+
             </tbody>
         </table>
     </div>

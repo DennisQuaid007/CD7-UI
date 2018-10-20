@@ -114,7 +114,9 @@
     <Content Include="ConfimPickupSignoff.aspx" />
     <Content Include="Deliveries.aspx" />
     <Content Include="DeliveryConfirmationFinal.aspx" />
+    <Content Include="DeliveryMap.aspx" />
     <Content Include="HeaderFooter_Master.Master" />
+    <Content Include="MapPhoto.JPG" />
     <Content Include="obj\Debug\build.force" />
     <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <Content Include="obj\Debug\DigitalDocumentService.csproj.CopyComplete" />
@@ -190,6 +192,13 @@
     </Compile>
     <Compile Include="DeliveryConfirmationFinal.aspx.designer.cs">
       <DependentUpon>DeliveryConfirmationFinal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeliveryMap.aspx.cs">
+      <DependentUpon>DeliveryMap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeliveryMap.aspx.designer.cs">
+      <DependentUpon>DeliveryMap.aspx</DependentUpon>
     </Compile>
     <Compile Include="HeaderFooter_Master.Master.cs">
       <DependentUpon>HeaderFooter_Master.Master</DependentUpon>
