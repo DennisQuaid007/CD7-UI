@@ -26,7 +26,7 @@ namespace DigitalDocumentService
 
         protected void btnQR_Click(object sender, EventArgs e)
         {
-            Response.Redirect("PickupQRCode.aspx");
+            Response.Redirect("AdminGenerateQR.aspx");
         }
     }
 }

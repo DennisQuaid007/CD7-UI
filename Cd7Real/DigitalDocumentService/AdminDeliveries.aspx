@@ -32,7 +32,7 @@
                     <td>&nbsp;4567&nbsp;</td>
                     <td>&nbsp;182901&nbsp;</td>
                     <td>&nbsp;10/22/18 1:00pm&nbsp;</td>
-                    <td>&nbsp;Foo Barson&nbsp;</td>
+                    <td>&nbsp;John Smith&nbsp;</td>
                     <td>&nbsp;Delivered&nbsp;</td>
                     <td></td>
                 </tr>
@@ -40,7 +40,7 @@
                     <td>&nbsp;1234&nbsp;</td>
                     <td>&nbsp;182392&nbsp;</td>
                     <td>&nbsp;n/a&nbsp;</td>
-                    <td>&nbsp;Baz Foomore&nbsp;</td>
+                    <td>&nbsp;Jane Doe&nbsp;</td>
                     <td>&nbsp;Awaiting Pickup&nbsp;</td>
                     <td></td>
                 </tr>
@@ -48,7 +48,7 @@
                     <td>&nbsp;1919&nbsp;</td>
                     <td>&nbsp;182322&nbsp;</td>
                     <td>&nbsp;10/22/18 3:44pm&nbsp;</td>
-                    <td>&nbsp;Foo Bazbill&nbsp;</td>
+                    <td>&nbsp;Tom Jones&nbsp;</td>
                     <td>&nbsp;Out for delivery&nbsp;</td>
                     <td> </td>
                 </tr>

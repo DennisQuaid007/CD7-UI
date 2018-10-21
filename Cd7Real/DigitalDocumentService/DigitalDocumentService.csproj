@@ -68,6 +68,8 @@
   <ItemGroup>
     <Content Include="Accept.aspx" />
     <Content Include="AdminDeliveries.aspx" />
+    <Content Include="AdminGenerateQR.aspx" />
+    <Content Include="AdminQRResult.aspx" />
     <Content Include="bin\DigitalDocumentService.dll" />
     <Content Include="bin\DigitalDocumentService.pdb" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
@@ -113,6 +115,7 @@
     <Content Include="bin\roslyn\VBCSCompiler.exe" />
     <Content Include="chk.png" />
     <Content Include="ConfimPickupSignoff.aspx" />
+    <Content Include="Default.aspx" />
     <Content Include="Deliveries.aspx" />
     <Content Include="DeliveryConfirmationFinal.aspx" />
     <Content Include="DeliveryMap.aspx" />
@@ -182,12 +185,33 @@
     <Compile Include="AdminDeliveries.aspx.designer.cs">
       <DependentUpon>AdminDeliveries.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AdminGenerateQR.aspx.cs">
+      <DependentUpon>AdminGenerateQR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminGenerateQR.aspx.designer.cs">
+      <DependentUpon>AdminGenerateQR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminQRResult.aspx.cs">
+      <DependentUpon>AdminQRResult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminQRResult.aspx.designer.cs">
+      <DependentUpon>AdminQRResult.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ConfimPickupSignoff.aspx.cs">
       <DependentUpon>ConfimPickupSignoff.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ConfimPickupSignoff.aspx.designer.cs">
       <DependentUpon>ConfimPickupSignoff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Deliveries.aspx.cs">
       <DependentUpon>Deliveries.aspx</DependentUpon>
