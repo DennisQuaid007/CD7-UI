@@ -1,4 +1,4 @@
-﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.5\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.5\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Accept.aspx" />
+    <Content Include="AdminDeliveries.aspx" />
     <Content Include="bin\DigitalDocumentService.dll" />
     <Content Include="bin\DigitalDocumentService.pdb" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
@@ -171,6 +172,13 @@
     </Compile>
     <Compile Include="AcessCode.aspx.designer.cs">
       <DependentUpon>AcessCode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDeliveries.aspx.cs">
+      <DependentUpon>AdminDeliveries.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminDeliveries.aspx.designer.cs">
+      <DependentUpon>AdminDeliveries.aspx</DependentUpon>
     </Compile>
     <Compile Include="ConfimPickupSignoff.aspx.cs">
       <DependentUpon>ConfimPickupSignoff.aspx</DependentUpon>
