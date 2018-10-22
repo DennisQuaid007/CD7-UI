@@ -40,6 +40,10 @@ namespace DigitalDocumentService
 
                 }
             }
+            else if(txtTuid.Text == "ADMIN" && txtPassword.Text == "ADMIN")  {
+                Response.Redirect("adminFrmMain.aspx");
+                
+            }
             else{
                 Response.Redirect("studentFrmMain.aspx");
             }

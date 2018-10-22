@@ -2,14 +2,17 @@
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-<style>
+    <style>
     div {
         color:black;
+    }
+        .btnback{
+        padding: 10px;
     }
 </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
+    <asp:Button CssClass="btnback" ID="btnBack" runat="server" Text="Back to homepage" OnClick="btnBack_Click" />
 
 <center>
     <br/><br/><br/><br/>

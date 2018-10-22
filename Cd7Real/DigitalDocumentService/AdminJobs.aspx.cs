@@ -18,5 +18,11 @@ namespace DigitalDocumentService
         {
             Response.Redirect("AdminJobs.aspx");
         }
+
+        protected void btnBack_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("adminFrmMain.aspx");
+
+        }
     }
 }
