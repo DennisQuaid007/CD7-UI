@@ -12,9 +12,15 @@
     }
 
 </style>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="adminFrmMain.aspx">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Generate QR Code</li>
+        </ol>
+    </nav>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <asp:Button CssClass="btnback" ID="btnBack" runat="server" Text="Back to admin homepage" OnClick="btnBack_Click" />   
+
     <center>
         <br/><br/>
         Select all the jobs you would like to link together into a delivery Job and then generate the QR code.

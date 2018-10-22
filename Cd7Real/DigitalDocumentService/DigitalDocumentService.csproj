@@ -69,7 +69,9 @@
     <Content Include="Accept.aspx" />
     <Content Include="AdminDeliveries.aspx" />
     <Content Include="AdminGenerateQR.aspx" />
+    <Content Include="AdminViewJob.aspx" />
     <Content Include="AdminQRResult.aspx" />
+    <Content Include="AdminViewJobDelivery.aspx" />
     <Content Include="bin\DigitalDocumentService.dll" />
     <Content Include="bin\DigitalDocumentService.pdb" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
@@ -121,7 +123,6 @@
     <Content Include="css\bootstrap-reboot.min.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
-    <Content Include="Default.aspx" />
     <Content Include="Deliveries.aspx" />
     <Content Include="DeliveryConfirmationFinal.aspx" />
     <Content Include="DeliveryMap.aspx" />
@@ -179,7 +180,7 @@
     <Content Include="PickupQRCode.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="ScanQRCode.aspx" />
-    <Content Include="SignIn.aspx" />
+    <Content Include="Default.aspx" />
     <Content Include="StevesStyles.css" />
     <Content Include="studentFrmMain.aspx" />
     <Content Include="StyleSheetSignIn.css" />
@@ -215,6 +216,13 @@
     <Compile Include="AdminGenerateQR.aspx.designer.cs">
       <DependentUpon>AdminGenerateQR.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AdminViewJob.aspx.cs">
+      <DependentUpon>AdminViewJob.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminViewJob.aspx.designer.cs">
+      <DependentUpon>AdminViewJob.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AdminQRResult.aspx.cs">
       <DependentUpon>AdminQRResult.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -222,19 +230,19 @@
     <Compile Include="AdminQRResult.aspx.designer.cs">
       <DependentUpon>AdminQRResult.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AdminViewJobDelivery.aspx.cs">
+      <DependentUpon>AdminViewJobDelivery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminViewJobDelivery.aspx.designer.cs">
+      <DependentUpon>AdminViewJobDelivery.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ConfimPickupSignoff.aspx.cs">
       <DependentUpon>ConfimPickupSignoff.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ConfimPickupSignoff.aspx.designer.cs">
       <DependentUpon>ConfimPickupSignoff.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Deliveries.aspx.cs">
       <DependentUpon>Deliveries.aspx</DependentUpon>
@@ -296,12 +304,12 @@
     <Compile Include="ScanQRCode.aspx.designer.cs">
       <DependentUpon>ScanQRCode.aspx</DependentUpon>
     </Compile>
-    <Compile Include="SignIn.aspx.cs">
-      <DependentUpon>SignIn.aspx</DependentUpon>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="SignIn.aspx.designer.cs">
-      <DependentUpon>SignIn.aspx</DependentUpon>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="studentFrmMain.aspx.cs">
       <DependentUpon>studentFrmMain.aspx</DependentUpon>

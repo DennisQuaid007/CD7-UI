@@ -10,54 +10,107 @@
         padding: 10px;
     }
 </style>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="adminFrmMain.aspx">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Manage Deliveries</li>
+        </ol>
+    </nav>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <asp:Button CssClass="btnback" ID="btnBack" runat="server" Text="Back to homepage" OnClick="btnBack_Click" />
-
-<center>
-    <br/><br/><br/><br/>
-    <div id="infoDiv">
-        These are the open deliveries and the workers that they are assign to.
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 text-center">
+            <h2>Manage Deliveries.</h2>
+            <p>
+                These are the open deliveries and the workers that they are assign to.
+            </p>
+        </div>
     </div>
-    <br/><br/><br/><br/>
-    <div id="tblDiv">
-        <table border="1">
-            <tbody>
-                <tr>
-                    <td>&nbsp;Delivery ID&nbsp;</td>
-                    <td>&nbsp;Job Number&nbsp;</td>
-                    <td>&nbsp;Delivery Pickup Time&nbsp;</td>
-                    <td>&nbsp;Delivery Person&nbsp;</td>
-                    <td>&nbsp;Status&nbsp;</td>
-                    <td>&nbsp;View Job&nbsp;</td>
-                </tr>
-                <tr>
-                    <td>&nbsp;4567&nbsp;</td>
-                    <td>&nbsp;182901&nbsp;</td>
-                    <td>&nbsp;10/22/18 1:00pm&nbsp;</td>
-                    <td>&nbsp;John Smith&nbsp;</td>
-                    <td>&nbsp;Delivered&nbsp;</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>&nbsp;1234&nbsp;</td>
-                    <td>&nbsp;182392&nbsp;</td>
-                    <td>&nbsp;n/a&nbsp;</td>
-                    <td>&nbsp;Jane Doe&nbsp;</td>
-                    <td>&nbsp;Awaiting Pickup&nbsp;</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>&nbsp;1919&nbsp;</td>
-                    <td>&nbsp;182322&nbsp;</td>
-                    <td>&nbsp;10/22/18 3:44pm&nbsp;</td>
-                    <td>&nbsp;Tom Jones&nbsp;</td>
-                    <td>&nbsp;Out for delivery&nbsp;</td>
-                    <td> </td>
-                </tr>
+    <div class="row top-buffer">
+        <div class="col-1"></div>
+        <div class="col-10">
 
-            </tbody>
-        </table>
+        </div>
     </div>
-</center>
-</asp:Content>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Delivery ID</th>
+                        <th scope="col">Job Number</th>
+                        <th scope="col">Delivery Person</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Pick Up Timestamp</th>
+                        <th scope="col">Delivery Location</th>
+                        <th scope="col">Delivery Recipient</th>
+                        <th scope="col">View Job</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">4567</th>
+                    <td>17289</td>
+                    <td>Philip Fry</td>
+                    <td><span class="badge badge-primary">Out for Delivery</span></td>
+                    <td>10/12/2018 1:22pm</td>
+                    <td>1701 N Broad Street, Suite 562</td>
+                    <td>Joe Smith</td>
+                    <td>
+                        <asp:LinkButton ID="LinkButton3" CssClass="btn btn-primary btn-block btn-lg text-center" runat="server" OnClick="btnOpenJob_Click">
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                        </asp:LinkButton>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">4567</th>
+                    <td>17289</td>
+                    <td>Philip Fry</td>
+                    <td><span class="badge badge-primary">Out for Delivery</span></td>
+                    <td>10/12/2018 1:22pm</td>
+                    <td>1701 N Broad Street, Suite 562</td>
+                    <td>Joe Smith</td>
+                    <td>
+                        <asp:LinkButton ID="LinkButton1" CssClass="btn btn-primary btn-block btn-lg text-center" runat="server" OnClick="btnOpenJob_Click">
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                        </asp:LinkButton>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">4567</th>
+                    <td>17289</td>
+                    <td>Philip Fry</td>
+                    <td><span class="badge badge-success">Delivered</span></td>
+                    <td>10/12/2018 1:22pm</td>
+                    <td>1701 N Broad Street, Suite 562</td>
+                    <td>Joe Smith</td>
+                    <td>
+                        <asp:LinkButton ID="LinkButton2" CssClass="btn btn-primary btn-block btn-lg text-center" runat="server" OnClick="btnOpenJob_Click">
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                        </asp:LinkButton>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">4567</th>
+                    <td>17289</td>
+                    <td>Philip Fry</td>
+                    <td><span class="badge badge-warning">Not Picked up</span></td>
+                    <td>10/12/2018 1:22pm</td>
+                    <td>1701 N Broad Street, Suite 562</td>
+                    <td>Joe Smith</td>
+                    <td>
+                        <asp:LinkButton ID="LinkButton4" CssClass="btn btn-primary btn-block btn-lg text-center" runat="server" OnClick="btnOpenJob_Click">
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                        </asp:LinkButton>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+</asp:Content>    
+    

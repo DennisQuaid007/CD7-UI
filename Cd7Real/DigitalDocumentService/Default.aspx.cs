@@ -4,24 +4,33 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Drawing;
 
 namespace DigitalDocumentService
 {
-    public partial class Default : System.Web.UI.Page
+    public partial class SignIn : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
 
-        protected void btnLogOnAsAdmin_Click(object sender, EventArgs e)
+        protected void Button2_Click(object sender, EventArgs e)
         {
-            Response.Redirect("adminFrmMain.aspx");
-        }
-
-        protected void btnLogOnAsStudent_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("studentFrmMain.aspx");
+            if (txtTuid.Text == "" || txtPassword.Text == "")
+            {
+                Panel1.Visible = true;
+            }
+            else if(txtTuid.Text.ToUpper() == "ADMIN" && txtPassword.Text.ToUpper() == "ADMIN")
+            {
+                Panel1.Visible = false;
+                Response.Redirect("adminFrmMain.aspx");
+            }
+            else
+            {
+                Panel1.Visible = false;
+                Response.Redirect("studentFrmMain.aspx");
+            }
         }
     }
 }

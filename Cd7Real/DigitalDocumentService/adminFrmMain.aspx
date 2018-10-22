@@ -25,25 +25,28 @@
                 </div>
         </div>
         <div class="row top-buffer">
-            <div class="col-5"></div>
-            <div class="col-2" style="text-align: center;">
-                <asp:Button ID="btnPickup" CssClass="btn btn-primary btn-block" runat="server" Text="Generate QR Code" OnClick="btnQR_Click" />
+            <div class="col-3"></div>
+            <div class="col-6 text-center">
+                <asp:LinkButton ID="btnQR" runat="server" CssClass="btn btn-primary btn-block btn-lg" OnClick="btnQR_Click" >
+                    <i class="fas fa-qrcode fa-2x fa-fw"></i>&nbsp;&nbsp;Generate QR Code
+                </asp:LinkButton>            
             </div>
-            <div class="col-5"></div>
         </div>
         <div class="row top-buffer">
-            <div class="col-5"></div>
-            <div class="col-2" style="text-align: center;">
-                <asp:Button ID="btnDelivery" CssClass="btn btn-primary btn-block" runat="server" Text="Manage Deliveries" OnClick="btnDelivery_Click" />
+            <div class="col-3"></div>
+            <div class="col-6" style="text-align: center;">
+                <asp:LinkButton ID="LinkButton1" runat="server" CssClass="btn btn-primary btn-block btn-lg" OnClick="btnDelivery_Click" >
+                    <i class="fas fa-truck fa-2x fa-fw"></i>&nbsp;&nbsp;&nbsp;&nbsp;Manage Deliveries
+                </asp:LinkButton>               
             </div>
-            <div class="col-5"></div>
         </div>
         <div class="row top-buffer">
-            <div class="col-5"></div>
-            <div class="col-2" style="text-align: center;">
-                <asp:Button ID="btnJobs" CssClass="btn btn-primary btn-block" runat="server" Text="Manage Jobs" OnClick="btnJobs_Click" />
+            <div class="col-3"></div>
+            <div class="col-6" style="text-align: center;">
+                <asp:LinkButton ID="LinkButton2" runat="server" CssClass="btn btn-primary btn-block btn-lg" OnClick="btnJobs_Click" >
+                    <i class="fas fa-list fa-2x fa-fw"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manage Jobs
+                </asp:LinkButton>  
             </div>
-            <div class="col-5"></div>
         </div>
     </div>
 </asp:Content>
