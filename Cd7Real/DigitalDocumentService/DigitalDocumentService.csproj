@@ -115,11 +115,23 @@
     <Content Include="bin\roslyn\VBCSCompiler.exe" />
     <Content Include="chk.png" />
     <Content Include="ConfimPickupSignoff.aspx" />
+    <Content Include="css\bootstrap-grid.css" />
+    <Content Include="css\bootstrap-grid.min.css" />
+    <Content Include="css\bootstrap-reboot.css" />
+    <Content Include="css\bootstrap-reboot.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
     <Content Include="Default.aspx" />
     <Content Include="Deliveries.aspx" />
     <Content Include="DeliveryConfirmationFinal.aspx" />
     <Content Include="DeliveryMap.aspx" />
     <Content Include="HeaderFooter_Master.Master" />
+    <Content Include="img\Temple_T_logo.svg" />
+    <Content Include="js\bootstrap.bundle.js" />
+    <Content Include="js\bootstrap.bundle.min.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery-3.3.1.min.js" />
     <Content Include="MapPhoto.JPG" />
     <Content Include="obj\Debug\build.force" />
     <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
@@ -139,6 +151,17 @@
     <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
     <Content Include="adminFrmMain.aspx" />
     <Content Include="AdminJobs.aspx" />
+    <Content Include="js\bootstrap.bundle.js.map" />
+    <Content Include="js\bootstrap.bundle.min.js.map" />
+    <Content Include="js\bootstrap.js.map" />
+    <Content Include="js\bootstrap.min.js.map" />
+    <Content Include="css\.DS_Store" />
+    <Content Include="css\bootstrap-grid.css.map" />
+    <Content Include="css\bootstrap-grid.min.css.map" />
+    <Content Include="css\bootstrap-reboot.css.map" />
+    <Content Include="css\bootstrap-reboot.min.css.map" />
+    <Content Include="css\bootstrap.css.map" />
+    <Content Include="css\bootstrap.min.css.map" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -160,7 +183,7 @@
     <Content Include="StevesStyles.css" />
     <Content Include="studentFrmMain.aspx" />
     <Content Include="StyleSheetSignIn.css" />
-    <Content Include="Temple_university_logo2.jpg" />
+    <Content Include="img\Temple_university_logo2.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
