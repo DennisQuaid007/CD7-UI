@@ -6,52 +6,74 @@
         color:black;
     }
 </style>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="studentFrmMain.aspx">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Open Deliveries</li>
+        </ol>
+    </nav>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<center>
-    <br/><br/><br/><br/>
-    <div id="infoDiv">
-        Welcome to your open deliveries. Here you will see all deliveries you're currently responisble for.
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 text-center">
+            <h2>Your Open Deliveries.</h2>
+            <p>
+                Welcome to your open deliveries. Here you will see all deliveries you're currently responisble for.
+            </p>
+        </div>
     </div>
-    <br/><br/><br/><br/>
-    <div id="tblDiv">
-        <table border="1">
-            <tbody>
+    <div class="row top-buffer">
+        <div class="col-1"></div>
+        <div class="col-10">
+            <table class="table table-striped">
+                <thead>
                 <tr>
-                    <td>&nbsp;Delivery ID&nbsp;</td>
-                    <td>&nbsp;Delivery Location&nbsp;</td>
-                    <td>&nbsp;Delivery Recipient&nbsp;</td>
-                    <td>&nbsp;Delivery Time&nbsp;</td>
-                    <td>&nbsp;Delivery Date&nbsp;</td>
-                    <td>&nbsp;Map&nbsp;</td>
+                    <th scope="col">Delivery ID</th>
+                    <th scope="col">Delivery Location</th>
+                    <th scope="col">Delivery Recipient</th>
+                    <th scope="col">Pick Up Timestamp</th>
+                    <th scope="col">View Map</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">4567</th>
+                    <td>1701 N Broad Street, Suite 562</td>
+                    <td>Joe Smith</td>
+                    <td>10/12/2018 1:22pm</td>
+                    <td>
+                        <asp:LinkButton ID="LinkButton3" CssClass="btn btn-primary btn-block btn-lg text-center" runat="server" OnClick="btnOpenMap_Click">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </asp:LinkButton>
+                    </td>
                 </tr>
                 <tr>
-                    <td>&nbsp;4567&nbsp;</td>
-                    <td>&nbsp;1701 N Broad Street, Suite 562&nbsp;</td>
-                    <td>&nbsp;John Smith&nbsp;</td>
-                    <td>&nbsp;12:00&nbsp;</td>
-                    <td>&nbsp;10/22/18&nbsp;</td>
-                    <td>&nbsp;<asp:Button ID="btnOpenMap" runat="server" Text="Open Map" OnClick="btnOpenMap_Click"></asp:Button>&nbsp;</td>
+                    <th scope="row">4568</th>
+                    <td>2133 N 12, Room 52</td>
+                    <td>Jane Doe</td>
+                    <td>10/12/2018 12:10pm</td>
+                    <td>
+                        <asp:LinkButton ID="LinkButton2" CssClass="btn btn-primary btn-block btn-lg text-center" runat="server" OnClick="btnOpenMap_Click">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </asp:LinkButton>
+                    </td>
                 </tr>
                 <tr>
-                    <td>&nbsp;1234&nbsp;</td>
-                    <td>&nbsp;1701 N Broad Street, Suite 562&nbsp;</td>
-                    <td>&nbsp;Tom Jones&nbsp;</td>
-                    <td>&nbsp;12:00&nbsp;</td>
-                    <td>&nbsp;10/22/18&nbsp;</td>
-                    <td> </td>
+                    <th scope="row">4569</th>
+                    <td>1701 N Broad Street, mail room</td>
+                    <td>Robert Smith</td>
+                    <td>10/12/2018 12:10pm</td>
+                    <td>
+                        <asp:LinkButton ID="LinkButton1" CssClass="btn btn-primary btn-block btn-lg text-center" runat="server" OnClick="btnOpenMap_Click">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </asp:LinkButton>
+                    </td>
                 </tr>
-                <tr>
-                    <td>&nbsp;19191&nbsp;</td>
-                    <td>&nbsp;1701 N Broad Street, Suite 562&nbsp;</td>
-                    <td>&nbsp;Ben White&nbsp;</td>
-                    <td>&nbsp;12:00&nbsp;</td>
-                    <td>&nbsp;10/22/18&nbsp;</td>
-                    <td> </td>
-                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 
-            </tbody>
-        </table>
-    </div>
-</center>
+</div>
 </asp:Content>

@@ -17,7 +17,7 @@
 <div class="container-fluid">
     <div class="row top-buffer" style="font-size: 24px;">
         <div class="col-4"></div>
-        <div class="col-4">
+        <div class="col-4 text-center">
             <i class="fas fa-check fa-10x"></i>
         </div>
     </div>

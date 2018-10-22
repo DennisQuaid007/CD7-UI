@@ -1,6 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/HeaderFooter_Master.Master" AutoEventWireup="true" CodeBehind="DeliveryMap.aspx.cs" Inherits="DigitalDocumentService.DeliveryMap" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="studentFrmMain.aspx">Home</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="Deliveries.aspx">Open Deliveries</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Map</li>
+        </ol>
+    </nav>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <script type="text/javascript">
@@ -68,17 +75,20 @@
            padding:20px;
        }
     </style>
-    <div class="btnBack">
-    <asp:Button ID="btnBack" runat="server" Text="Back to Deliveries" OnClick="btnBack_Click" />
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <img src="MapPhoto.JPG" />
+
         </div>
-    <div class="mydiv">
-        <h1>Map View</h1>
-        </br>
-        <img src="MapPhoto.JPG" />
-           </br>
-        <br />
-        <asp:Button ID="btnDirections" runat="server" Text="Directions" />
-        </br>
-        <br />
+    </div>
+    <div class="row top-buffer">
+        <div class="col-4"></div>
+        <div class="col-4 text-center">
+            <asp:Button ID="btnDirections"  CssClass="btn btn-primary" runat="server" Text="Directions" />
+
         </div>
+    </div>
+</div>
 </asp:Content>
