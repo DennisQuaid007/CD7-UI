@@ -69,6 +69,7 @@
     <Content Include="Accept.aspx" />
     <Content Include="AdminDeliveries.aspx" />
     <Content Include="AdminGenerateQR.aspx" />
+    <Content Include="AdminQRJobView.aspx" />
     <Content Include="AdminViewJob.aspx" />
     <Content Include="AdminQRResult.aspx" />
     <Content Include="AdminViewJobDelivery.aspx" />
@@ -133,7 +134,7 @@
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery-3.3.1.min.js" />
-    <Content Include="MapPhoto.JPG" />
+    <Content Include="img\MapPhoto.JPG" />
     <Content Include="obj\Debug\build.force" />
     <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <Content Include="obj\Debug\DigitalDocumentService.csproj.CopyComplete" />
@@ -215,6 +216,13 @@
     </Compile>
     <Compile Include="AdminGenerateQR.aspx.designer.cs">
       <DependentUpon>AdminGenerateQR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminQRJobView.aspx.cs">
+      <DependentUpon>AdminQRJobView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminQRJobView.aspx.designer.cs">
+      <DependentUpon>AdminQRJobView.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminViewJob.aspx.cs">
       <DependentUpon>AdminViewJob.aspx</DependentUpon>

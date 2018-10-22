@@ -19,9 +19,9 @@ namespace DigitalDocumentService
             Response.Redirect("AdminQRResult.aspx");
         }
 
-        protected void btnBack_Click(object sender, EventArgs e)
+        protected void btnOpenJob_Click(object sender, EventArgs e)
         {
-            Response.Redirect("adminFrmMain.aspx");
+            Response.Redirect("AdminQRJobView.aspx");
         }
     }
 }

@@ -79,7 +79,7 @@
     <div class="row">
         <div class="col-4"></div>
         <div class="col-4">
-            <img src="MapPhoto.JPG" />
+            <img src="img/MapPhoto.JPG" />
 
         </div>
     </div>

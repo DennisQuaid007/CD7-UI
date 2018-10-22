@@ -26,6 +26,18 @@
             background-color: #8c2132;
         }
 
+        a {
+            color: white;
+        }
+        a:visited{
+            color: white;
+        }
+         a:hover{
+            color: gray;
+        }
+        a:link{
+            color: white;
+        }
     </style>
 
     <script type="text/javascript">
