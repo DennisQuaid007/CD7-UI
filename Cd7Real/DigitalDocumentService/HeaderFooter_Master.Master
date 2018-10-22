@@ -15,45 +15,31 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <style>
-        .top-buffer { margin-top:30px; }
-
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #A41E35;
-        }
-
-        li {
-            float: left;
-             list-style-type: none;
-
-        }
-
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        li a:hover {
-            background-color: #8c2132 ;
-        }
+        .top-buffer { margin-top: 30px; }
 
 
         .content-page {
-            background-color:#FFFFFF;
+            background-color: #FFFFFF;
+        }
+
+        .breadcrumb {
+            background-color: #8c2132;
         }
 
     </style>
+
     <script type="text/javascript">
         $(document).ready(function(e) {
             var h = $('#top-navbar').height() + 40;
             $('.content-page').css("padding-top", h);
             $('.content-page').css("padding-bottom", h);
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function(e) {
+            var h = $('#top-navbar').height() + 30;
+            $('.breadcrumb').css("padding-top", h);
         });
     </script>
 </head>
@@ -64,13 +50,13 @@
                     <img src="img/Temple_T_logo.svg" style="width: 40px; height: 40px;" alt="">
                     Digital Documents Service
                 </a> 
-                <li class="nav-item dropdown">
+                <a class="nav-item">
                     <a class="nav-link " href="#">
                         Sign Out
                     </a>
-                </li>
+                </a>
         </nav>
-        <div class="container-fluid content-page">
+        <div class="content-page">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>

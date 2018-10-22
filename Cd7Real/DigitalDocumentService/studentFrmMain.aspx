@@ -5,7 +5,6 @@
         #directions {
             color: black;
         }
-
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -30,8 +29,8 @@
         <div class="row top-buffer">
             <div class="col-3"></div>
             <div class="col-6">
-                <asp:LinkButton ID="btnPickup" runat="server" CssClass="btn btn-primary btn-block btn-lg text-center" OnClick="btnPickup_Click" >
-                    <i class="fas fa-box fa-2x fa-fw align-left"></i>&nbsp;&nbsp;Pick Up Delivery
+                <asp:LinkButton ID="btnPickup" runat="server" CssClass="btn btn-primary btn-block btn-lg" OnClick="btnPickup_Click" >
+                    <i class="fas fa-box fa-2x fa-fw"></i>&nbsp;&nbsp;Pick Up Delivery
                 </asp:LinkButton>
             </div>
         </div>
@@ -42,7 +41,6 @@
                     <i class="fas fa-parachute-box fa-2x fa-fw"></i>Complete Delivery
                 </asp:LinkButton>
             </div>
-            <div class="col-lg-5"></div>
         </div>
         <div class="row top-buffer">
             <div class="col-3"></div>
