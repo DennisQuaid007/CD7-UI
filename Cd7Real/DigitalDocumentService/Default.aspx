@@ -5,7 +5,7 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<div class="container-fluid">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-12 text-center">
                 <h1>Log In</h1>
@@ -28,9 +28,11 @@
                     <label for="ContentPlaceHolder1_txtTuid">TUID</label>
                     <asp:TextBox ID="txtTuid" runat="server" CssClass="form-control" BorderStyle="Solid" BorderWidth="1px"></asp:TextBox>
                     <label for="ContentPlaceHolder1_txtPassword">Password</label>
-                    <asp:TextBox ID="txtPassword" runat="server" CssClass="form-control" BorderStyle="Solid" BorderWidth="1px"></asp:TextBox>
+                    <asp:TextBox ID="txtPassword" runat="server" CssClass="form-control" BorderStyle="Solid" BorderWidth="1px" TextMode="Password"></asp:TextBox>
                     <br />
                     <asp:Button CssClass="signinbutton btn btn-primary" ID="Button1" runat="server" Text="Sign In" OnClick="Button2_Click" />
+                    &nbsp;&nbsp;&nbsp;
+                    <asp:Button CssClass="signinbutton btn btn-primary" ID="Button2" runat="server" Text="SignUp" OnClick="Button2_Click1" />
                 </div>
             </div>
         </div>
