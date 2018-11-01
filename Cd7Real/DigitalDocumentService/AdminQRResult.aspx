@@ -35,7 +35,7 @@
     <div class="row">
         <div class="col-4"></div>
         <div class="col-4">
-            <asp:Button ID="btnPrint" runat="server" CssClass="btn btn-primary" Text="Print QR Code" OnClick="btnPrint_Click"></asp:Button>
+            <asp:Button ID="btnPrint" runat="server" CssClass="btn btn-danger" Text="Print QR Code" OnClick="btnPrint_Click"></asp:Button>
         </div>
     </div>
 </div>

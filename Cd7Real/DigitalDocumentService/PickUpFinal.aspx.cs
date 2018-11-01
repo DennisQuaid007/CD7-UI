@@ -13,5 +13,10 @@ namespace DigitalDocumentService
         {
 
         }
+
+        protected void btnGoToOpenDeliveries_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/Deliveries.aspx");
+        }
     }
 }

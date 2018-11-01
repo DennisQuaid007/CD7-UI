@@ -23,7 +23,7 @@
         <div class="row top-buffer">
             <div class="col-3"></div>
             <div class="col-6 top-buffer">
-                <asp:LinkButton ID="LinkButton1" CssClass="btn btn-primary btn-block btn-lg text-center" runat="server" OnClick="btnSubmit_Click">
+                <asp:LinkButton ID="LinkButton1" CssClass="btn btn-danger btn-block btn-lg text-center" runat="server" OnClick="btnSubmit_Click">
                     <i class="fas fa-camera fa-2x"></i>
                 </asp:LinkButton>
             </div>

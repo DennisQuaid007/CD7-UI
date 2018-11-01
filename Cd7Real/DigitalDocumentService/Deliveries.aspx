@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 <style>
-    div {
+    .black {
         color:black;
     }
 </style>
@@ -16,8 +16,9 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <div class="container-fluid">
     <div class="row">
-        <div class="col-12 text-center">
+        <div class="col-12 text-center black">
             <h2>Your Open Deliveries.</h2>
+            <div class="row">&nbsp;</div>
             <p>
                 Welcome to your open deliveries. Here you will see all deliveries you're currently responisble for.
             </p>
@@ -25,7 +26,7 @@
     </div>
     <div class="row top-buffer">
         <div class="col-1"></div>
-        <div class="col-10">
+        <div class="col-10 black">
             <table class="table table-striped">
                 <thead>
                 <tr>
@@ -43,7 +44,7 @@
                     <td>Joe Smith</td>
                     <td>10/12/2018 1:22pm</td>
                     <td>
-                        <asp:LinkButton ID="LinkButton3" CssClass="btn btn-primary btn-block btn-lg text-center" runat="server" OnClick="btnOpenMap_Click">
+                        <asp:LinkButton ID="LinkButton3" CssClass="btn btn-danger btn-block btn-lg text-center" runat="server" OnClick="btnOpenMap_Click">
                             <i class="fas fa-map-marker-alt"></i>
                         </asp:LinkButton>
                     </td>
@@ -54,7 +55,7 @@
                     <td>Jane Doe</td>
                     <td>10/12/2018 12:10pm</td>
                     <td>
-                        <asp:LinkButton ID="LinkButton2" CssClass="btn btn-primary btn-block btn-lg text-center" runat="server" OnClick="btnOpenMap_Click">
+                        <asp:LinkButton ID="LinkButton2" CssClass="btn btn-danger btn-block btn-lg text-center" runat="server" OnClick="btnOpenMap_Click">
                             <i class="fas fa-map-marker-alt"></i>
                         </asp:LinkButton>
                     </td>
@@ -65,7 +66,7 @@
                     <td>Robert Smith</td>
                     <td>10/12/2018 12:10pm</td>
                     <td>
-                        <asp:LinkButton ID="LinkButton1" CssClass="btn btn-primary btn-block btn-lg text-center" runat="server" OnClick="btnOpenMap_Click">
+                        <asp:LinkButton ID="LinkButton1" CssClass="btn btn-danger btn-block btn-lg text-center" runat="server" OnClick="btnOpenMap_Click">
                             <i class="fas fa-map-marker-alt"></i>
                         </asp:LinkButton>
                     </td>

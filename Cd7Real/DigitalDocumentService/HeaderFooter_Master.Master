@@ -9,13 +9,18 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <%-- <link href="StyleSheetSignIn.css" rel="stylesheet" /> --%>
     <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <script src="js/bootstrap.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <style>
-        .top-buffer { margin-top: 30px; }
+        .top-buffer {
+            margin-top: 30px;
+        }
 
 
         .content-page {
@@ -29,19 +34,24 @@
         a {
             color: white;
         }
-        a:visited{
-            color: white;
-        }
-         a:hover{
-            color: gray;
-        }
-        a:link{
-            color: white;
-        }
+
+            a:visited {
+                color: white;
+            }
+
+            a:hover {
+                color: gray;
+            }
+
+            a:link {
+                color: white;
+            }
+
+
     </style>
 
     <script type="text/javascript">
-        $(document).ready(function(e) {
+        $(document).ready(function (e) {
             var h = $('#top-navbar').height() + 40;
             $('.content-page').css("padding-top", h);
             $('.content-page').css("padding-bottom", h);
@@ -49,38 +59,48 @@
     </script>
 
     <script type="text/javascript">
-        $(document).ready(function(e) {
+        $(document).ready(function (e) {
             var h = $('#top-navbar').height() + 30;
             $('.breadcrumb').css("padding-top", h);
         });
     </script>
     <script type="text/javascript">
-        $(document).ready(function(e) {
-           
-           
+        $(document).ready(function (e) {
+
+
         });
     </script>
 </head>
 <body>
     <form id="form1" runat="server">
-        <nav class="navbar fixed-top navbar-dark justify-content-between" id="top-navbar" style="background-color: #A41E35;">
-                <a class="navbar-brand" href="#">
-                    <img src="img/Temple_T_logo.svg" style="width: 40px; height: 40px;" alt="">
-                    Digital Documents Service
-                </a> 
-                <a class="nav-item" id="signout">
-                    <a class="nav-link " href="Default.aspx">
-                        Sign Out
-                    </a>
+        <nav class="navbar fixed-top navbar-dark justify-content-between" id="top-navbar" style="background-color: #A41E35; font-family:'Open Sans'">
+            <a class="navbar-brand" href="#">
+                <img src="img/Temple_T_logo.svg" style="width: 40px; height: 40px;" alt="">
+                Digital Documents Services
                 </a>
+            <a class="nav-item" id="signout">
+                <a class="nav-link " href="Default.aspx">Sign Out
+                    </a>
+            </a>
         </nav>
-        <div class="content-page">
+        <div class="content-page" style="font-family:'Arvo'">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
-        <nav class="navbar navbar-dark fixed-bottom" style="background-color: #A41E35;">
-            <p>Copyright information</p>
-        </nav>
-  </form>
+        <footer class="fixed-bottom page-footer" style="background-color: #A41E35; color: white; font-family:'Open Sans';">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-7 mt-md-0 mt-3">
+                    Contact Digital Document Services at (215) 204-3646
+                </div>
+
+                <div class="col-md-3 mb-md-0 mb-3" style="margin-left:5%">
+                    Lost? Here are <a style="color:#90d1bb" href="https://www.temple.edu/maps-and-directions">maps & directions</a> around campus
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+            <div class="footer-copyright text-center">© 2018 Copyright - Temple University & Digital Document Services</div>
+        </footer>
+    </form>
 </body>
 </html>

@@ -3,7 +3,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
-    div {
+    .black {
         color:black;
     }
 </style>
@@ -17,7 +17,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <div class="container-fluid">
     <div class="row">
-        <div class="col-12 text-center">
+        <div class="col-12 text-center black">
             <h2>Manage Uploaded Print Jobs</h2>
             <p>You can upload CSV files that contain print order jobs that you wish to be assigned to student delivery workers</p>
         </div>
@@ -27,13 +27,13 @@
 
         </div>
         <div class="col-4 text-center">
-            <asp:LinkButton ID="LinkButton2" runat="server" CssClass="btn btn-primary" OnClick="btnUpload_Click" >
+            <asp:LinkButton ID="LinkButton2" runat="server" CssClass="btn btn-danger" OnClick="btnUpload_Click" >
                 <i class="fas fa-upload fa-2x fa-fw"></i>&nbsp;&nbsp;&nbsp;&nbsp;Upload CSV File
             </asp:LinkButton> 
         </div>
 
     </div>
-    <div class="row top-buffer">
+    <div class="row top-buffer black">
         <div class="col-1"></div>
         <div class="col-10">
             <table class="table table-striped">
@@ -55,7 +55,7 @@
                     <td>Normal</td>
                     <td>10/12/2018 1:22pm</td>
                     <td>
-                        <asp:LinkButton ID="LinkButton3" CssClass="btn btn-primary btn-block btn-lg text-center" runat="server" OnClick="btnJob_Click">
+                        <asp:LinkButton ID="LinkButton3" CssClass="btn btn-danger btn-block btn-lg text-center" runat="server" OnClick="btnJob_Click">
                             <i class="fas fa-arrow-alt-circle-right"></i>
                         </asp:LinkButton>
                     </td>
@@ -67,7 +67,7 @@
                     <td>Normal</td>
                     <td>10/11/2018 2:22pm</td>
                     <td>
-                        <asp:LinkButton ID="LinkButton1" CssClass="btn btn-primary btn-block btn-lg text-center" runat="server" OnClick="btnJob_Click">
+                        <asp:LinkButton ID="LinkButton1" CssClass="btn btn-danger btn-block btn-lg text-center" runat="server" OnClick="btnJob_Click">
                             <i class="fas fa-arrow-alt-circle-right"></i>
                         </asp:LinkButton>
                     </td>
@@ -79,7 +79,7 @@
                     <td>Normal</td>
                     <td>10/10/2018 10:33am</td>
                     <td>
-                        <asp:LinkButton ID="LinkButton4" CssClass="btn btn-primary btn-block btn-lg text-center" runat="server" OnClick="btnJob_Click">
+                        <asp:LinkButton ID="LinkButton4" CssClass="btn btn-danger btn-block btn-lg text-center" runat="server" OnClick="btnJob_Click">
                             <i class="fas fa-arrow-alt-circle-right"></i>
                         </asp:LinkButton>
                     </td>
@@ -91,7 +91,7 @@
                     <td>Normal</td>
                     <td>10/12/2018 1:22pm</td>
                     <td>
-                        <asp:LinkButton ID="LinkButton5" CssClass="btn btn-primary btn-block btn-lg text-center" runat="server" OnClick="btnJob_Click">
+                        <asp:LinkButton ID="LinkButton5" CssClass="btn btn-danger btn-block btn-lg text-center" runat="server" OnClick="btnJob_Click">
                             <i class="fas fa-arrow-alt-circle-right"></i>
                         </asp:LinkButton>
                     </td>
@@ -103,7 +103,7 @@
                     <td>Normal</td>
                     <td>10/12/2018 1:22pm</td>
                     <td>
-                        <asp:LinkButton ID="LinkButton6" CssClass="btn btn-primary btn-block btn-lg text-center" runat="server" OnClick="btnJob_Click">
+                        <asp:LinkButton ID="LinkButton6" CssClass="btn btn-danger btn-block btn-lg text-center" runat="server" OnClick="btnJob_Click">
                             <i class="fas fa-arrow-alt-circle-right"></i>
                         </asp:LinkButton>
                     </td>

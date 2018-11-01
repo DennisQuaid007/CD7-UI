@@ -21,18 +21,24 @@
                 </asp:Panel>
             </div>
         </div>
+        <div class="row">&nbsp;</div>
+        <div class="row">&nbsp;</div>
+        <div class="row">&nbsp;</div>
         <div class="row top-buffer">
             <div class="col-4"></div>
             <div class="col-4 text-center">
                 <div class="form-group">
                     <label for="ContentPlaceHolder1_txtTuid">TUID</label>
                     <asp:TextBox ID="txtTuid" runat="server" CssClass="form-control" BorderStyle="Solid" BorderWidth="1px"></asp:TextBox>
+                    <div class="row">&nbsp;</div>
+                    <div class="row">&nbsp;</div>
                     <label for="ContentPlaceHolder1_txtPassword">Password</label>
                     <asp:TextBox ID="txtPassword" runat="server" CssClass="form-control" BorderStyle="Solid" BorderWidth="1px" TextMode="Password"></asp:TextBox>
                     <br />
-                    <asp:Button CssClass="signinbutton btn btn-primary" ID="Button1" runat="server" Text="Sign In" OnClick="Button2_Click" />
+                    <div class="row">&nbsp;</div>
+                    <asp:Button CssClass="signinbutton btn btn-danger" ID="Button1" runat="server" Text="Sign In" OnClick="Button2_Click" />
                     &nbsp;&nbsp;&nbsp;
-                    <asp:Button CssClass="signinbutton btn btn-primary" ID="Button2" runat="server" Text="SignUp" OnClick="Button2_Click1" />
+                    <asp:Button CssClass="signinbutton btn btn-danger" ID="Button2" runat="server" Text="SignUp" OnClick="Button2_Click1" />
                 </div>
             </div>
         </div>

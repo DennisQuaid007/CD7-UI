@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/HeaderFooter_Master.Master" AutoEventWireup="true" CodeBehind="PickUpFinal.aspx.cs" Inherits="DigitalDocumentService.PickUpFinal" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-<style>
+    <style>
     p{
         color: black;
     }
@@ -14,7 +14,7 @@
     </nav>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<div class="container-fluid">
+    <div class="container-fluid">
     <div class="row top-buffer" style="font-size: 24px;">
         <div class="col-4"></div>
         <div class="col-4 text-center">
@@ -30,6 +30,8 @@
                 <p>123 Fake st, rm 207</p>
                 <hr>
                 <p class="mb-0">Delivery Job Created and Added to Your List of Open Deliveries.</p>
+                <p></p>
+                <asp:Button class="btn btn-default" runat="server" ID="btnGoToOpenDeliveries" Text="Go To Open Deliveries" OnClick="btnGoToOpenDeliveries_Click"/>
             </div>
         </div>
     </div>
