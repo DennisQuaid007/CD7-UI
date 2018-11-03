@@ -33,9 +33,6 @@
             </div>
         </div>
         <div class="row top-buffer">
-            <div class="col-1"></div>
-            <div class="col-10">
-            </div>
         </div>
         <div class="row black">
             <div class="col-1"></div>
@@ -53,19 +50,19 @@
                     <tbody>
                         <tr>
                             <th scope="row">
-                                <asp:CheckBox runat="server" /></th>
-                            <td>17289</td>
+                                <asp:CheckBox ID="One" OnCheckedChanged="Check_Clicked" runat="server" /></th>
+                            <td>17244</td>
                             <td>Joe Smith</td>
                             <td>1701 N Broad Street, Suite 302</td>
                             <td>
-                                <asp:LinkButton ID="LinkButton3" CssClass="btn btn-danger btn-block btn-lg text-center" runat="server" OnClick="btnOpenJob_Click">
+                                <asp:LinkButton ID="LinkButton3"  CssClass="btn btn-danger btn-block btn-lg text-center" runat="server" OnClick="btnOpenJob_Click">
                             <i class="fas fa-arrow-alt-circle-right"></i>
                                 </asp:LinkButton>
                             </td>
                         </tr>
                         <tr>
                             <th scope="row">
-                                <asp:CheckBox runat="server" /></th>
+                                <asp:CheckBox OnCheckedChanged="Check_Clicked" runat="server" ID="Two"/></th>
                             <td>17289</td>
                             <td>Joe Smith</td>
                             <td>1701 N Broad Street, Suite 302</td>
@@ -77,8 +74,8 @@
                         </tr>
                         <tr>
                             <th scope="row">
-                                <asp:CheckBox runat="server" /></th>
-                            <td>17289</td>
+                                <asp:CheckBox OnCheckedChanged="Check_Clicked" runat="server" ID="Three"/></th>
+                            <td>17432</td>
                             <td>Joe Smith</td>
                             <td>1020 N 10th Street, Suite 10</td>
                             <td>
@@ -89,8 +86,8 @@
                         </tr>
                         <tr>
                             <th scope="row">
-                                <asp:CheckBox runat="server" /></th>
-                            <td>17289</td>
+                                <asp:CheckBox OnCheckedChanged="Check_Clicked" runat="server" ID="Four" /></th>
+                            <td>17211</td>
                             <td>Joe Smith</td>
                             <td>220 N 11th Street, Room 100</td>
                             <td>

@@ -64,6 +64,12 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="zxing, Version=0.16.4.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.4\lib\net461\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.4.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.4\lib\net461\zxing.presentation.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Accept.aspx" />
@@ -129,13 +135,30 @@
     <Content Include="DeliveryMap.aspx" />
     <Content Include="HeaderFooter_Master.Master" />
     <Content Include="img\Temple_T_logo.svg" />
+    <Content Include="js\alignpat.js" />
+    <Content Include="js\bitmat.js" />
+    <Content Include="js\bmparser.js" />
     <Content Include="js\bootstrap.bundle.js" />
     <Content Include="js\bootstrap.bundle.min.js" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\datablock.js" />
+    <Content Include="js\databr.js" />
+    <Content Include="js\datamask.js" />
+    <Content Include="js\decoder.js" />
+    <Content Include="js\detector.js" />
+    <Content Include="js\errorlevel.js" />
+    <Content Include="js\findpat.js" />
+    <Content Include="js\formatinf.js" />
+    <Content Include="js\gf256.js" />
+    <Content Include="js\gf256poly.js" />
+    <Content Include="js\grid.js" />
+    <Content Include="js\instascan.min.js" />
     <Content Include="js\jquery-3.3.1.min.js" />
     <Content Include="img\MapPhoto.JPG" />
-    <Content Include="obj\Debug\build.force" />
+    <Content Include="js\qrcode.js" />
+    <Content Include="js\rsdecoder.js" />
+    <Content Include="js\version.js" />
     <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <Content Include="obj\Debug\DigitalDocumentService.csproj.CopyComplete" />
     <Content Include="obj\Debug\DigitalDocumentService.csproj.CoreCompileInputs.cache" />
@@ -165,6 +188,7 @@
     <Content Include="css\bootstrap.css.map" />
     <Content Include="css\bootstrap.min.css.map" />
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\capstone1dds - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -180,6 +204,7 @@
     <Content Include="PickUpFinal.aspx" />
     <Content Include="PickupQRCode.aspx" />
     <Content Include="Register.aspx" />
+    <Content Include="Scanner.aspx" />
     <Content Include="ScanQRCode.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="StevesStyles.css" />
@@ -304,6 +329,13 @@
     </Compile>
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Scanner.aspx.cs">
+      <DependentUpon>Scanner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Scanner.aspx.designer.cs">
+      <DependentUpon>Scanner.aspx</DependentUpon>
     </Compile>
     <Compile Include="ScanQRCode.aspx.cs">
       <DependentUpon>ScanQRCode.aspx</DependentUpon>

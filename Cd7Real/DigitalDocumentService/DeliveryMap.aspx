@@ -77,16 +77,22 @@
     </style>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-4"></div>
-        <div class="col-4">
-            <img src="img/MapPhoto.JPG" />
+        <div class="col-3"></div>
+        <div class="col-6 ">
+            <p><b>Delivery Location:</b> &nbsp; 123 Fake st, Room 210</p>
+            <p><b>Delivery Recipient:</b> &nbsp; Joe Schmo</p>
+        </div>
+    </div>
+    <div class="row text-center top-buffer">
+        <div class="col-12">
+            <img class="img-responsive center-block" src="img/MapPhoto.JPG" />
 
         </div>
     </div>
     <div class="row top-buffer">
         <div class="col-4"></div>
         <div class="col-4 text-center">
-            <asp:Button ID="btnDirections"  CssClass="btn btn-primary" runat="server" Text="Directions" />
+            <asp:Button ID="btnDirections"  CssClass="btn  btn-danger" runat="server" Text="Directions" />
 
         </div>
     </div>

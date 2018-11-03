@@ -25,6 +25,8 @@
 
         .content-page {
             background-color: #FFFFFF;
+                        padding-top:  10px;
+            padding-bottom: 10px;
         }
 
         .breadcrumb {
@@ -46,7 +48,6 @@
             a:link {
                 color: white;
             }
-
 
     </style>
 
@@ -88,18 +89,16 @@
             </asp:ContentPlaceHolder>
         </div>
         <footer class="fixed-bottom page-footer" style="background-color: #A41E35; color: white; font-family:'Open Sans';">
-            <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-7 mt-md-0 mt-3">
-                    Contact Digital Document Services at (215) 204-3646
+            <div clas="row">
+                <div class="col-12 text-center">
+                    <b>Lost?</b> Here are <a style="color:#90d1bb" href="https://www.temple.edu/maps-and-directions">maps & directions</a> around campus
                 </div>
-
-                <div class="col-md-3 mb-md-0 mb-3" style="margin-left:5%">
-                    Lost? Here are <a style="color:#90d1bb" href="https://www.temple.edu/maps-and-directions">maps & directions</a> around campus
-                </div>
-                <div class="col-md-1"></div>
             </div>
-            <div class="footer-copyright text-center">© 2018 Copyright - Temple University & Digital Document Services</div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <span class="footer-copyright text-center">© 2018 Copyright - Temple University & Digital Document Services &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (215) 204-3646</span>
+                </div>
+            </div>
         </footer>
     </form>
 </body>

@@ -23,7 +23,6 @@
         </div>
         <div class="row">&nbsp;</div>
         <div class="row">&nbsp;</div>
-        <div class="row">&nbsp;</div>
         <div class="row top-buffer">
             <div class="col-4"></div>
             <div class="col-4 text-center">
