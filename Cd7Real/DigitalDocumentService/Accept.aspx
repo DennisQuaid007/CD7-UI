@@ -4,6 +4,7 @@
     #text{
         color:black;
     }
+
 </style>
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -23,8 +24,8 @@
     </div>
     <div class="row top-buffer">
         <div class="col-12 text-center">
-            <div class="alert alert-success" style="background: #90d1bb;" role="alert">
-                <h4 class="alert-heading">Package Delivered</h4>
+            <div class="alert alert-success" style="background: #6ec4e8;" role="alert">
+                <h4 class="alert-heading" style="color: black;">Package Delivered</h4>
                 <p>You have successfully scanned a Delivery Package QR code. You have comepleted this delivery</p>
                 <hr> 
                 <p class="mb-0">Delivery Job Completed. All parties will be notified.</p>

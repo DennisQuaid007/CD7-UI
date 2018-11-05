@@ -42,12 +42,30 @@
             }
 
             a:hover {
-                color: gray;
+                color: white;
             }
 
             a:link {
                 color: white;
             }
+        .breadcrumb-item.active {
+            color: black;
+            font-weight: bold;
+        }
+
+        .btn-danger {
+            background-color: #ee2738;
+        }
+        
+        h2 {
+            color: #A41E35;
+        }
+        h1 {
+            color: #A41E35;
+        }
+        p {
+            color: #222222;
+        }
 
     </style>
 
@@ -74,7 +92,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <nav class="navbar fixed-top navbar-dark justify-content-between" id="top-navbar" style="background-color: #A41E35; font-family:'Open Sans'">
+        <nav class="navbar fixed-top navbar-dark justify-content-between" id="top-navbar" style="background-color: #8c2132; font-family:'Open Sans'">
             <a class="navbar-brand" href="#">
                 <img src="img/Temple_T_logo.svg" style="width: 40px; height: 40px;" alt="">
                 Digital Documents Services
@@ -88,7 +106,7 @@
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
-        <footer class="fixed-bottom page-footer" style="background-color: #A41E35; color: white; font-family:'Open Sans';">
+        <footer class="fixed-bottom page-footer" style="background-color: #8c2132; color: white; font-family:'Open Sans';">
             <div clas="row">
                 <div class="col-12 text-center">
                     <b>Lost?</b> Here are <a style="color:#90d1bb" href="https://www.temple.edu/maps-and-directions">maps & directions</a> around campus

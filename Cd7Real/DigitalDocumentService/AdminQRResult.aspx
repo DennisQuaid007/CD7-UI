@@ -23,14 +23,14 @@
         <div class="col-12">
             <%-- <div class="col-4"></div> --%>
             <%-- <div class="col-4"> --%>
-                <img runat="server" HorizontalAlign="Center"  id="imgCtrl" />
+                <img style="padding-left: 35%" runat="server" HorizontalAlign="Center"  id="imgCtrl" />
 
             <%-- </div> --%>
         </div>
     </div>
     <div class="row">
         <div class="col-4"></div>
-        <div class="col-4">
+        <div class="col-4 text-center">
             <asp:Button ID="btnPrint" runat="server" CssClass="btn btn-danger" Text="Print QR Code" OnClick="btnPrint_Click"></asp:Button>
         </div>
     </div>

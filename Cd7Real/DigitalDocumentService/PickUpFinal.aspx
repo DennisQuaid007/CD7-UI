@@ -23,15 +23,15 @@
     </div>
     <div class="row top-buffer">
         <div class="col-12 text-center">
-            <div class="alert alert-success" style="background: #90d1bb;" role="alert">
-                <h4 class="alert-heading">Package Picked Up!</h4>
+            <div class="alert alert-success" style="background: #6ec4e8;" role="alert">
+                <h4 class="alert-heading" style="color: black;">Package Picked Up!</h4>
                 <p>You have successfully scanned a Delivery Package QR code. You may now proceed to deliver the package to the following location:</p>
                 <p>John Smith</p>
                 <p>123 Fake st, rm 207</p>
                 <hr>
                 <p class="mb-0">Delivery Job Created and Added to Your List of Open Deliveries.</p>
                 <p></p>
-                <asp:Button class="btn btn-default" runat="server" ID="btnGoToOpenDeliveries" Text="Go To Open Deliveries" OnClick="btnGoToOpenDeliveries_Click"/>
+                <asp:Button class="btn btn-danger" runat="server" ID="btnGoToOpenDeliveries" Text="Go To Open Deliveries" OnClick="btnGoToOpenDeliveries_Click"/>
             </div>
         </div>
     </div>
