@@ -106,6 +106,8 @@
                 <asp:LinkButton ID="LinkButton5" CssClass="btn btn-danger btn-block btn-lg text-center" runat="server" OnClick="btnGenerate_OnClick">
                 <i class="fas fa-qrcode"></i>&nbsp;&nbsp;&nbsp;Generate QR Code
                 </asp:LinkButton>
+                </div>
+
             </div>
         </div>
 

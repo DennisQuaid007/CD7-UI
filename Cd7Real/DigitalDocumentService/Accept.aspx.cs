@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Web.UI.HtmlControls;
+
 
 namespace DigitalDocumentService
 {
@@ -11,7 +13,11 @@ namespace DigitalDocumentService
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            HtmlMeta meta = new HtmlMeta();
+            meta.HttpEquiv = "Refresh";
+            meta.Content = "3;url=ClientSignOff.aspx";
+            this.Page.Controls.Add(meta);
+          
         }
 
         protected void btnSubmit_Click(object sender, EventArgs e)

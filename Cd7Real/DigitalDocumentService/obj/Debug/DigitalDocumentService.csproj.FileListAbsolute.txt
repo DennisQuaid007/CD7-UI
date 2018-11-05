@@ -286,3 +286,9 @@ C:\BACKUP\repos\CD7-UI\Cd7Real\DigitalDocumentService\obj\Debug\DigitalDocumentS
 C:\BACKUP\repos\CD7-UI\Cd7Real\DigitalDocumentService\obj\Debug\DigitalDocumentService.csproj.CopyComplete
 C:\BACKUP\repos\CD7-UI\Cd7Real\DigitalDocumentService\obj\Debug\DigitalDocumentService.dll
 C:\BACKUP\repos\CD7-UI\Cd7Real\DigitalDocumentService\obj\Debug\DigitalDocumentService.pdb
+C:\Users\Jdigi\Desktop\Capstone 1\CD7\CD7-UI\Cd7Real\DigitalDocumentService\bin\zxing.dll
+C:\Users\Jdigi\Desktop\Capstone 1\CD7\CD7-UI\Cd7Real\DigitalDocumentService\bin\zxing.presentation.dll
+C:\Users\Jdigi\Desktop\Capstone 1\CD7\CD7-UI\Cd7Real\DigitalDocumentService\bin\zxing.pdb
+C:\Users\Jdigi\Desktop\Capstone 1\CD7\CD7-UI\Cd7Real\DigitalDocumentService\bin\zxing.xml
+C:\Users\Jdigi\Desktop\Capstone 1\CD7\CD7-UI\Cd7Real\DigitalDocumentService\bin\zxing.presentation.pdb
+C:\Users\Jdigi\Desktop\Capstone 1\CD7\CD7-UI\Cd7Real\DigitalDocumentService\bin\zxing.presentation.xml

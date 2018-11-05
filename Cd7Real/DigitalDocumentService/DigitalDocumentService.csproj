@@ -123,6 +123,7 @@
     <Content Include="bin\roslyn\vbc.exe" />
     <Content Include="bin\roslyn\VBCSCompiler.exe" />
     <Content Include="chk.png" />
+    <Content Include="ClientSignOff.aspx" />
     <Content Include="ConfimPickupSignoff.aspx" />
     <Content Include="css\bootstrap-grid.css" />
     <Content Include="css\bootstrap-grid.min.css" />
@@ -269,6 +270,13 @@
     </Compile>
     <Compile Include="AdminViewJobDelivery.aspx.designer.cs">
       <DependentUpon>AdminViewJobDelivery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClientSignOff.aspx.cs">
+      <DependentUpon>ClientSignOff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClientSignOff.aspx.designer.cs">
+      <DependentUpon>ClientSignOff.aspx</DependentUpon>
     </Compile>
     <Compile Include="ConfimPickupSignoff.aspx.cs">
       <DependentUpon>ConfimPickupSignoff.aspx</DependentUpon>
