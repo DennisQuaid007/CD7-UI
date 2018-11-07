@@ -2,7 +2,11 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
+    <style>
+        .color{
+            color: red;
+        }
+        </style>
      <div class="row top-buffer">
         <div class="col-4"></div>
         <div class="col-4 text-center">
@@ -23,6 +27,7 @@
                 <asp:TextBox ID="txtConf" runat="server" TextMode="Password"></asp:TextBox>
                 <div class="row"></div>
                 <div class="row"></div>
+                <asp:Label CssClass="color" ID="lblWarning" runat="server" Text="Please insure all options are filled" Visible="false"></asp:Label>
                 <div class="row">&nbsp;</div>
                 <asp:Button CssClass="signinbutton btn btn-danger" ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
                 &nbsp;&nbsp;&nbsp;
