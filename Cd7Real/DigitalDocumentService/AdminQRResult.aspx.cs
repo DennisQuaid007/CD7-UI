@@ -17,13 +17,14 @@ namespace DigitalDocumentService
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-//            if (String.IsNullOrWhiteSpace(textBox1.Text) || String.IsNullOrEmpty(textBox1.Text))
-//            {
-//                pictureBox1.Image = null;
-//                MessageBox.Show("Text not found", "Oops!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-//            }
-//            else
-//            {
+            //            if (String.IsNullOrWhiteSpace(textBox1.Text) || String.IsNullOrEmpty(textBox1.Text))
+            //            {
+            //                pictureBox1.Image = null;
+            //                MessageBox.Show("Text not found", "Oops!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //            }
+            //            else
+            //            {
+
             var qr = new ZXing.BarcodeWriter
             {
                 Format = ZXing.BarcodeFormat.QR_CODE,
@@ -36,6 +37,7 @@ namespace DigitalDocumentService
             };
 //                qr.Options = options;
 
+            lblQRInfo.Text = Session["code"].ToString();
 
             if (Session["code"] != null)
             {
@@ -44,7 +46,6 @@ namespace DigitalDocumentService
                 //                textBox1.Clear();
                 //            }
                 result.SetResolution(400,400);
-   
 
                 MemoryStream ms = new MemoryStream();
                 result.Save(ms, ImageFormat.Gif);

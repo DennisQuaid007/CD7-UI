@@ -25,6 +25,7 @@
                 <asp:Panel ID="Panel1" runat="server">
                     <img style="padding-left: 35%" runat="server" horizontalalign="Center" id="imgCtrl" />
                 </asp:Panel>
+                <asp:Label runat="server" ID="lblQRInfo"></asp:Label>
             </div>
         </div>
 
